@@ -1,0 +1,14 @@
+- 单独雷达检测网络
+- 雷达和2D检测macth就是好track
+- 如果不match需要再retrieval
+- 雷达跟踪算法，根据点云的track
+- 两个并行处理2d和3d
+- DBS不靠谱
+- trackid要有持续性，MS3D的track比较传统和通用，
+- MS3D 可插拔
+- tensorRT
+- 置信度2D为主，3D为辅
+- 但是可以做2D NMS（opt)
+- voting(3D先完成），通过大模型检测box是不是对的（让模型衡量box是不是对的）
+- 车辆和行人（）
+- GT的评价，retrieval的评价，baseline sv learning recall 比原来的更高
