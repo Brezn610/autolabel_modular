@@ -12,6 +12,7 @@ htmlcov/
 !.env.example
 
 out/
+outputs/
 results/
 annotations*.json
 *.png

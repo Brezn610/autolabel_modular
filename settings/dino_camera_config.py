@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from typing import Any, Dict, Tuple
 
-# 键须与 AppConfig.cameras / timesync 中的相机名一致（含 _camera 后缀）
+# Keys must match DrivIng timesync camera names, including the _camera suffix.
 DINO_CAMERA_CONFIG: Dict[str, Dict[str, Any]] = {
     "front_left_camera": {
         "top_k": 6,
